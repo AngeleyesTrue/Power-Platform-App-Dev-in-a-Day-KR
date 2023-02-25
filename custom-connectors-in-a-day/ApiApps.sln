@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84898272-E29
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiKeyAuthApp", "src\ApiKeyAuthApp\ApiKeyAuthApp.csproj", "{43BFA9BA-2FF0-4459-8369-3634E9FCDB55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuthApp", "src\BasicAuthApp\BasicAuthApp.csproj", "{1776B873-AF08-4CD7-822D-604002D4BAEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{43BFA9BA-2FF0-4459-8369-3634E9FCDB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43BFA9BA-2FF0-4459-8369-3634E9FCDB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43BFA9BA-2FF0-4459-8369-3634E9FCDB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1776B873-AF08-4CD7-822D-604002D4BAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1776B873-AF08-4CD7-822D-604002D4BAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1776B873-AF08-4CD7-822D-604002D4BAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1776B873-AF08-4CD7-822D-604002D4BAEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{43BFA9BA-2FF0-4459-8369-3634E9FCDB55} = {84898272-E294-456B-A0BA-3C04F2827AEB}
+		{1776B873-AF08-4CD7-822D-604002D4BAEA} = {84898272-E294-456B-A0BA-3C04F2827AEB}
 	EndGlobalSection
 EndGlobal
